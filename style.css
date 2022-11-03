@@ -1,0 +1,238 @@
+nav{
+   
+    padding: 3px;
+    margin: 10px 15px;
+    display: block;
+    text-align:center;
+    background-image: url(../slike/patern.jpg);
+
+}
+#slika3{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    border: 2px solid rgb(201, 65, 111);
+    animation: animacija2 4s linear infinite;
+}
+@keyframes animacija2 {
+    from{transform: rotate(-90deg);}
+    to{transform: rotate(90deg);}
+}
+
+.link1 {
+    border: 2px solid rgb(201, 65, 111);
+    background: rgb(235, 223, 225);
+    color: rgb(182, 24, 77);
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    text-align:center;
+    box-shadow:2px 2px 3px rgb(201, 65, 111) ;
+    border-radius: 5px 5px;
+    animation: animacija 2s linear infinite;
+}
+@media screen and (max-width:600px){
+    .link1 {
+        float: none;
+        width: 100%;
+        display: block;
+    }
+}
+.link1:hover {
+    padding: 7px;
+    color: rgb(235, 223, 225);
+    background: rgb(182, 24, 77);
+    border: rgb(235, 223, 225);
+    transition: 0.5s;
+}
+body{
+    background-image: url(../slike/pozadina.jpg);
+}
+@media (max-width:800px) {
+    main{
+        float: none;
+        width: 100%;
+        height: auto;
+        }
+        aside{
+            float: none;
+            width: 100%;
+            height: auto;
+        }
+    footer{
+        width: 100%;
+    }
+}
+@media screen and(max-width:250px) {
+    #slika1{
+        display: none;
+    }
+}
+header{
+    background-image: url(../slike/narukvice.jpg);
+    padding: 60px 80px;
+    margin:10px 15px;
+    position: relative;
+}
+main{
+    border: 8px dotted rgb(182, 24, 77);
+    background-image: url(../slike/patern.jpg);
+    float: left;
+    width: 60%;
+    height: 80%;
+    margin-left: 15px;
+    margin-bottom:10px ;
+    padding: 50px 30px
+}
+h1{
+    text-align: center;
+    background: rgb(201, 65, 111);
+    color: rgb(235, 223, 225);
+    padding: 5px 10px;
+    border: 2px dotted rgb(235, 223, 225);
+}
+.paragraf{
+    background: rgb(235, 223, 225);
+    color: rgb(182, 24, 77);
+    border: 2px dotted rgb(182, 24, 77);
+    margin-bottom: 5px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#section{
+    border: 1px solid rgb(201, 65, 111);
+    background: rgb(235, 223, 225);
+    padding: 10px 15px 15px 15px;
+    margin-top: 10px;
+}
+aside{
+    width: 31%;
+    height: 80%;
+    float: right;
+    background-image: url(../slike/patern.jpg);
+    margin-right:10px;
+    margin-bottom: 10px;
+    border: 8px dotted rgb(182, 24, 77) ;
+
+}
+.deo{
+    background: rgb(235, 223, 225);
+    border: 2px solid rgb(182, 24, 77);
+    padding: 10px 5px;
+    margin: 10px 15px;
+    text-align: center;
+
+}
+.deo #slika1{
+    border: 1px dotted rgb(201, 65, 111);
+    border-radius: 2px 8px;
+    box-shadow: 5px 10px 18px rgb(182, 24, 77);
+    animation: animacija 4s  infinite;
+}
+.paragraf2{
+    padding: 5px 10px;
+    margin: 5px 20px;
+    background: rgb(235, 223, 225);
+    color: rgb(182, 24, 77);
+    border: 2px dotted rgb(182, 24, 77);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    clear: both;
+    border: 8px dotted rgb(182, 24, 77);
+    background-image: url(../slike/patern.jpg);
+    margin: 10px 15px;
+    text-align: center;
+    height: 90px;
+}
+#slika2{
+
+    width: 40px;
+    height: 40px;
+    padding-left:20px ;
+    margin:10px 5px;
+}
+#slika2:hover{
+    background: rgb(235, 223, 225);
+    padding: 10px;
+    transition: 00.5s;
+}
+span{
+    font-style:italic;
+    font-weight: bold;
+    text-shadow: 2px;
+    text-transform: uppercase;
+}
+#poruci{
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+color:rgb(201, 65, 111) ;
+border: 1px dotted rgb(201, 65, 111);
+background: rgb(235, 223, 225);
+height: 30px;
+width: 140px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+.dugme{
+    border: 2px solid rgb(201, 65, 111);
+    background: rgb(235, 223, 225);
+    color: rgb(182, 24, 77);
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    text-align:center;
+    box-shadow:2px 2px 3px rgb(201, 65, 111) ;
+    border-radius: 5px 5px;
+    animation: animacija 4s  infinite;
+    animation: animacija3 2s infinite;
+}
+@keyframes animacija {
+    0%{border: 3px solid rgb(182, 24, 77);}
+    25%{border:3px solid royalblue;}
+    50%{border: 3px solid rosybrown;}
+    75%{border: 3px solid red;}
+    100%{border: 3px solid rebeccapurple;}
+}
+@keyframes animacija3 {
+    0%{font-size: 10px;}
+    25%{font-size: 11px;}
+    50%{font-size: 12px;}
+    75%{font-size: 13px;}
+    100%{font-size: 14px;}
+}
+.deo1{
+    background: rgb(235, 223, 225);
+    border: 2px solid rgb(182, 24, 77);
+    padding: 10px 20px;
+    margin: 10px 5px;
+}  
+h3{
+    text-align: center;
+    background: rgb(201, 65, 111);
+    color: rgb(235, 223, 225);
+    padding: 5px 10px;
+    border: 2px dotted rgb(235, 223, 225);
+}
+#ogrlica{
+    display: block;
+    padding: 5px ;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px 10px;
+    box-shadow: 5px 2px 10px rgb(201, 65, 111);
+    margin-left:15px ;
+    margin-bottom: 10px;
+}
+#forma{
+    display:block;
+    margin-bottom: 15px;
+    border:1px solid rgb(201, 65, 111);
+    border-radius: 10px;
+    letter-spacing: 2px;
+    height: 40px;
+    width: 300px;
+}
