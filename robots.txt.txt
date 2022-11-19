@@ -1,0 +1,3 @@
+user-agent: *
+
+sitemap: https://github.com/draganae/nakit/blob/main/sitemap.xml
